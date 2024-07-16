@@ -18,7 +18,7 @@ export const Products: React.FC = () => {
     if (!initialized) {
       dispatch(init());
     }
-  }, []);
+  }, [dispatch, initialized]);
 
   const renderContent = () => {
     if (loading) {

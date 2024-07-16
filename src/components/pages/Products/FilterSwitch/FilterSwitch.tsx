@@ -19,7 +19,7 @@ export const FilterSwitch: React.FC = () => {
     return () => {
       dispatch(setQuery(""));
     };
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className={styles["switch-container"]}>
