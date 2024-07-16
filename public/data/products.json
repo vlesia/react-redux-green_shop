@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "photo": "img/fruits/apple.jpg",
+    "description": "Fresh and crisp, apples are a timeless choice. Perfect for snacks or baking, they offer a sweet flavor with a hint of tartness and are packed with antioxidants and fiber.",
+    "category": "fruit",
+    "price": 1.5
+  },
+  {
+    "id": 2,
+    "name": "Strawberry",
+    "photo": "img/fruits/strawberry.jpg",
+    "description": "Sweet and vibrant, strawberries are bursting with antioxidants and vitamin C. Add them to desserts, salads, or enjoy them straight from the basket.",
+    "category": "fruit",
+    "price": 3.0
+  },
+  {
+    "id": 3,
+    "name": "Grape",
+    "photo": "img/fruits/grape.jpg",
+    "description": "Grapes are a delightful snack, rich in antioxidants and natural sugars. Perfect for eating on their own or adding a sweet touch to cheese platters.",
+    "category": "fruit",
+    "price": 2.5
+  },
+  {
+    "id": 4,
+    "name": "Cherry",
+    "photo": "img/fruits/cherry.jpg",
+    "description": "Sweet and tart, cherries are rich in antioxidants and anti-inflammatory compounds. Enjoy them as a snack or add a burst of flavor to desserts.",
+    "category": "fruit",
+    "price": 3.0
+  },
+  {
+    "id": 5,
+    "name": "Pear",
+    "photo": "img/fruits/pear.jpg",
+    "description": "Juicy and sweet, pears are packed with fiber and vitamins. Enjoy them fresh, poached, or baked for a delightful treat any time of day.",
+    "category": "fruit",
+    "price": 2.5
+  },
+  {
+    "id": 6,
+    "name": "Blueberry",
+    "photo": "img/fruits/blueberry.jpg",
+    "description": "Small but mighty, blueberries are rich in antioxidants and essential nutrients. Add them to cereals, yogurt, or blend into smoothies for a nutritious boost.",
+    "category": "fruit",
+    "price": 3.5
+  },
+  {
+    "id": 7,
+    "name": "Carrot",
+    "photo": "img/vegetables/carrot.jpg",
+    "description": "Vibrant and crunchy, carrots are packed with beta-carotene for healthy eyes and skin. Enjoy raw, juiced, or cooked in soups and stews.",
+    "category": "vegetable",
+    "price": 1.0
+  },
+  {
+    "id": 8,
+    "name": "Broccoli",
+    "photo": "img/vegetables/broccoli.jpg",
+    "description": "Nutrient-rich broccoli offers a mild, earthy flavor and is packed with vitamins K and C. Perfect for roasting, steaming, or adding to stir-fries.",
+    "category": "vegetable",
+    "price": 2.0
+  },
+  {
+    "id": 9,
+    "name": "Tomato",
+    "photo": "img/vegetables/tomato.jpg",
+    "description": "Juicy and versatile, tomatoes are rich in lycopene for heart health and antioxidants for overall well-being. Essential for sauces, salads, and sandwiches.",
+    "category": "vegetable",
+    "price": 1.5
+  },
+  {
+    "id": 10,
+    "name": "Spinach",
+    "photo": "img/vegetables/spinach.jpg",
+    "description": "Leafy and nutrient-packed, spinach is rich in iron and vitamins A and C. Enjoy fresh in salads, sautéed as a side dish, or blended into smoothies.",
+    "category": "vegetable",
+    "price": 2.5
+  },
+  {
+    "id": 11,
+    "name": "Cucumber",
+    "photo": "img/vegetables/cucumber.jpg",
+    "description": "Cool and hydrating, cucumbers are low in calories and packed with antioxidants. Perfect for salads, sandwiches, or enjoyed as a refreshing snack.",
+    "category": "vegetable",
+    "price": 1.5
+  },
+  {
+    "id": 12,
+    "name": "Lettuce",
+    "photo": "img/vegetables/lettuce.jpg",
+    "description": "Crisp and refreshing, lettuce is low in calories and rich in vitamins A and K. Perfect for fresh salads, wraps, or sandwiches.",
+    "category": "vegetable",
+    "price": 2.0
+  }
+]

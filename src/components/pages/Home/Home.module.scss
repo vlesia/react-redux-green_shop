@@ -1,0 +1,38 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 2em;
+
+  h2 {
+    color: $main-color;
+    margin-bottom: 0.75em;
+    font-weight: 700;
+    text-align: center;
+
+    @include tablet {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: $primary-color;
+    margin-bottom: 1.5em;
+    text-align: justify;
+
+    @include tablet {
+      font-size: 1em;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+  }
+
+  @include mobile {
+    padding: 1em;
+  }
+}

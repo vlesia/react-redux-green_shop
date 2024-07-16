@@ -1,0 +1,21 @@
+// Colors
+$primary-color: #333;
+$secondary-color: #555;
+$white-color: #fff;
+$main-color:  rgb(33, 125, 55);
+$hover-color: rgb(7, 112, 7);
+$error-color: #a22712;
+
+// Font sizes
+$font-size-base: 16px;
+$font-size-large: 24px;
+
+// container params
+$container-width: 1024px;
+$horizontal-paddings: 16px;
+
+// breakpointsWidth
+$pc: $container-width + ($horizontal-paddings * 2);
+$tablet: 768px;
+$mobile: 480px;
+$min-break-point: 320px;

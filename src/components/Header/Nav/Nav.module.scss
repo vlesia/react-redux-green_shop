@@ -1,0 +1,52 @@
+.nav {
+  flex-grow: 1;
+  background-color: $main-color;
+
+  @include tablet {
+    background-color: white;
+  }
+}
+
+.list {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  margin: 16px 0px;
+
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.item {
+  display: inline-block;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: $white-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  @include tablet {
+    height: initial;
+    width: fit-content;
+    color: $primary-color;
+  }
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.linkActive {
+  background-color: $hover-color;
+}

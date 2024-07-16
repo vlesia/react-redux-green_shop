@@ -1,0 +1,15 @@
+.carousel {
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.carouselImage {
+  max-height: 500px;  
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  @include mobile {
+    max-height: 280px;  
+  }
+}

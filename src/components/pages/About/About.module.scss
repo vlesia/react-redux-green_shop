@@ -1,0 +1,46 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+
+  @include mobile {
+    padding: 16px;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+
+  @include mobile {
+    font-size: 1.5rem;
+  }
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: justify;
+
+  li {
+    margin-bottom: 5px;
+  }
+}
