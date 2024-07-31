@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 import { Product } from "../type/Product";
 
-export const BASE_URL = "https://react-redux-product-shop.vercel.app/";
+export const BASE_URL = "http://localhost:3000/";
 
 const get = async <T>(url: string): Promise<T> => {
   try {
